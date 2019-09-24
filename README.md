@@ -7,7 +7,7 @@ Dockernize Nginx+ngx_mruby with deb-Package
 
 ### install docker-compose
 
-**Not use already installed docker-compose**
+**Not use already installed `docker-compose`**
 
 * 01_install_docker-compose.sh
 
