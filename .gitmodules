@@ -1,0 +1,6 @@
+[submodule "ngx_mruby-package-builder"]
+	path = ngx_mruby-package-builder
+	url = https://github.com/pepabo/ngx_mruby-package-builder.git
+[submodule "ngx_mruby"]
+	path = ngx_mruby
+	url = https://github.com/matsumotory/ngx_mruby.git
