@@ -1,0 +1,12 @@
+sudo: required
+dist: bionic
+services: docker
+
+stages:
+  - name: buildpkg
+
+jobs:
+  fast_finish: true
+  include:
+    - stage: buildpkg
+      script: bash 02_build_deb_pkg.sh && bash 03_build_docker-ngx_mruby.sh

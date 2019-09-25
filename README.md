@@ -1,4 +1,7 @@
 # docker-ngx_mruby-with-pkg
+
+[![Build Status](https://travis-ci.org/snickerjp/docker-ngx_mruby-with-pkg.svg?branch=master)](https://travis-ci.org/snickerjp/docker-ngx_mruby-with-pkg)
+
 Dockernize Nginx+ngx_mruby with deb-Package
 
 ---
