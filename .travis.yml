@@ -3,13 +3,9 @@ services: docker
 
 stages:
   - name: buildpkg
-  - name: build
 
 jobs:
   fast_finish: true
   include:
     - stage: buildpkg
-      script: sh 02_build_deb_pkg.sh
-
-    - stage: build
-      script: sh 03_build_docker-ngx_mruby.sh
+      script: bash 02_build_deb_pkg.sh && bash 03_build_docker-ngx_mruby.sh
