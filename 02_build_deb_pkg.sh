@@ -20,4 +20,9 @@ function build_deb() {
 }
 
 # main
-copy_build_config && build_deb || my_error
+if [[ copy_build_config ]]
+then
+    build_deb
+else
+    my_error
+fi
