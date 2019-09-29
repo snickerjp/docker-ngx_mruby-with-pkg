@@ -1,7 +1,6 @@
 FROM ngxmrubypackagebuilder_ubuntu1804:latest AS builder
 
 FROM ubuntu:18.04
-MAINTAINER snickerjp
 
 COPY --from=builder /usr/local/src/nginx*.deb /tmp/
 
