@@ -5,7 +5,7 @@ FROM ubuntu:18.04
 COPY --from=builder /usr/local/src/nginx*.deb /tmp/
 
 # for Japan
-RUN sed -i.bak -e "s%http://[^ ]\+%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /etc/apt/sources.list
+RUN sed -i.bak -e "s%http://[^ ]\\+%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /etc/apt/sources.list
 
 RUN apt-get update \
   && apt-get upgrade --yes --no-install-recommends \
