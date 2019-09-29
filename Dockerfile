@@ -8,7 +8,6 @@ COPY --from=builder /usr/local/src/nginx*.deb /tmp/
 RUN sed -i.bak -e "s%http://[^ ]\\+%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /etc/apt/sources.list
 
 RUN apt-get update \
-  && apt-get upgrade --yes --no-install-recommends \
   && apt-get install --yes --no-install-recommends \
   ca-certificates \
   curl \
