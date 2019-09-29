@@ -1,6 +1,7 @@
 # docker-ngx_mruby-with-pkg
 
 [![Build Status](https://travis-ci.org/snickerjp/docker-ngx_mruby-with-pkg.svg?branch=master)](https://travis-ci.org/snickerjp/docker-ngx_mruby-with-pkg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1decb38dac5f4ad2be55cd7d711b5b14)](https://www.codacy.com/manual/snickerjp/docker-ngx_mruby-with-pkg?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=snickerjp/docker-ngx_mruby-with-pkg&amp;utm_campaign=Badge_Grade)
 
 Dockernize Nginx+ngx_mruby with deb-Package
 
