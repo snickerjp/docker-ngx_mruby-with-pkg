@@ -8,7 +8,7 @@ function my_error() {
 # Copy build_config.rb
 
 function copy_build_config() {
-    cp ngx_mruby/build_config.rb ngx_mruby-package-builder/ngx_mruby/build_config.rb
+    cp -v ngx_mruby/build_config.rb ngx_mruby-package-builder/ngx_mruby/build_config.rb
 }
 
 # build deb for ubuntu1804
